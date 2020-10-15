@@ -11,7 +11,7 @@ const quotes = [
   "\"Excelsior!\"",
   "\"The hardest choices require the strongest wills.\"",
   "\"Dormammu, I've come to Bargain.\"",
-  "\"Oh...yeah...\"",
+  "\"I am Groot.\"",
   "\"I can't control their fear, only my own.\""
 ];
 const authors = [
@@ -22,8 +22,8 @@ const authors = [
 "- Peter Parker",
 "- Stan Lee",
 "- Thanos",
-"- Steven Strange",
-"- Rocket Raccoon",
+"- Stephen Strange",
+"- Groot",
 "- Wanda Maximoff"
 ];
 
