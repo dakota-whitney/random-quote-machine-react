@@ -11,6 +11,7 @@ h2 {
   color: white;
   font-size: 20px;
   margin-top: -90px;
+  font-family: Montserrat, "Courier New", Courier;
 }
 
 h3 {
@@ -23,6 +24,7 @@ h3 {
   color: white;
   font-size: 35px;
   margin-bottom: 100px;
+  font-family: Montserrat, "Courier New", Courier;
 }
 
 #quote-box {
