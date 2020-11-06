@@ -2,31 +2,6 @@ import React from "react";
 import "./App.css";
 import { CSSTransitionGroup } from 'react-transition-group';
 
-const quotes = [
-  "\"We never defeat our demons, we simply learn to live above them.\"",
-  "\"I love you 3,000.\"",
-  "\"The price of freedom is high, and it's a price I'm willing to pay.\"",
-  "\"I'm always angry.\"",
-  "\"You're wrong, and you think you're right. That makes you dangerous.\"",
-  "\"Excelsior!\"",
-  "\"The hardest choices require the strongest wills.\"",
-  "\"Dormammu, I've come to Bargain.\"",
-  "\"I am Groot.\"",
-  "\"I can't control their fear, only my own.\""
-];
-const authors = [
-"- The Ancient One",
-"- Tony Stark",
-"- Steve Rogers",
-"- Bruce Banner",
-"- Peter Parker",
-"- Stan Lee",
-"- Thanos",
-"- Stephen Strange",
-"- Groot",
-"- Wanda Maximoff"
-];
-
 class App extends React.Component {
   constructor(props){
     super(props)
@@ -97,5 +72,30 @@ class App extends React.Component {
   );
   };
 };
+
+const quotes = [
+  "\"We never defeat our demons, we simply learn to live above them.\"",
+  "\"I love you 3,000.\"",
+  "\"The price of freedom is high, and it's a price I'm willing to pay.\"",
+  "\"I'm always angry.\"",
+  "\"You're wrong, and you think you're right. That makes you dangerous.\"",
+  "\"Excelsior!\"",
+  "\"The hardest choices require the strongest wills.\"",
+  "\"Dormammu, I've come to Bargain.\"",
+  "\"I am Groot.\"",
+  "\"I can't control their fear, only my own.\""
+];
+const authors = [
+"- The Ancient One",
+"- Tony Stark",
+"- Steve Rogers",
+"- Bruce Banner",
+"- Peter Parker",
+"- Stan Lee",
+"- Thanos",
+"- Stephen Strange",
+"- Groot",
+"- Wanda Maximoff"
+];
 
 export default App;
