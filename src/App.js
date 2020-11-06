@@ -37,6 +37,9 @@ class App extends React.Component {
     const quote = <h1 key={this.state.quotes}>{this.state.quotes}</h1>;
     const author = <h3 key={this.state.authors}>{this.state.authors}</h3>;
   return (
+    <div className="container">
+      <h1 id="header">Dakota's Random Marvel Movie Quote Machine</h1>
+      <h2>Developed in React.js</h2>
       <div id="quote-box">
         <div id="text">
         <CSSTransitionGroup
@@ -67,6 +70,7 @@ class App extends React.Component {
       <button id="new-quote" className="btn btn-primary" onClick={this.handleClick}>
         New Quote
       </button>
+      </div>
       </div>
       </div>
   );

@@ -1,37 +1,49 @@
-/*#quote-box {
-  text-align: center;
-}*/
-
 body {
-  background-color: #282c34;
+  background-color: #4d0000;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+h2 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: -90px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+#header {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+  font-size: 35px;
+  margin-bottom: 100px;
+}
+
 #quote-box {
-  background-color: #282c34;
+  background-color: #4d0000;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
   height: auto;
-  /*animation: fadeIn 1s ease-in-out;*/
+  margin: 10px;
+  padding: 10px;
 }
 
-/*@keyframes fadeIn {
-  0% {
-    transform: translateX(-300px);
-    opacity: 0%;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 100%;
-  }
-}*/
+#tweet-quote {
+  color: white;
+}
+
+#new-quote {
+  background-color: black;
+}
 
 #button-area {
   display: flex;
@@ -43,10 +55,10 @@ body {
 #author {
   margin: 10px;
   text-align: right;
-  font-size: 20px;
 }
 
 #text {
+  font-family: "Shadows Into Light", cursive;
   margin: 50px;
 }
 
@@ -67,14 +79,3 @@ body {
   opacity: 0.01;
   transition: opacity 1ms linear;
 }
-
-/*@keyframes opacity {
-  0% {
-    transform: translateX(-300px);
-    opacity: 0%;
-  }
-  100% {
-    transform: translateX(0px);
-    opacity: 100%;
-  }
-}*/
