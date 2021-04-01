@@ -1,5 +1,5 @@
 body {
-  background-color: #4d0000;
+  background-color: darkred;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -11,7 +11,7 @@ h2 {
   color: white;
   font-size: 20px;
   margin-top: -90px;
-  font-family: Montserrat, "Courier New", Courier;
+  font-family: "Shadows Into Light", cursive;
 }
 
 h3 {
@@ -20,31 +20,33 @@ h3 {
 
 #header {
   text-align: center;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
   color: white;
-  font-size: 35px;
+  font-size: 50px;
   margin-bottom: 100px;
-  font-family: Montserrat, "Courier New", Courier;
+  font-family: "Shadows Into Light", cursive;
 }
 
 #quote-box {
-  background-color: #4d0000;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
   height: auto;
-  margin: 10px;
+  margin: 50px 10px 10px 10px;
   padding: 10px;
+  box-shadow: 0px 0px 30px 15px black;
+  border-radius: 10px;
 }
 
 #tweet-quote {
-  color: white;
+  color: darkred;
 }
 
 #new-quote {
-  background-color: black;
+  background-color: darkred;
 }
 
 #button-area {
@@ -60,8 +62,15 @@ h3 {
 }
 
 #text {
-  font-family: "Shadows Into Light", cursive;
+  font-family: Montserrat, "Courier New", Courier;
   margin: 50px;
+  color: darkred;
+}
+
+#text h1 {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .example-enter {
